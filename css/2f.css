@@ -1,3 +1,11 @@
+.button{
+  border: none; 
+  width: 96px;
+  height: 28px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
 .link{
   color: rgb(0, 113, 133);
  }
@@ -13,20 +21,10 @@
 }
 
 .button--add{
-  background-color: rgb(255, 216, 20);
-  border: none;
-  width: 96px;
-  height: 28px;
-  border-radius: 14px;
+  background-color: rgb(255, 216, 20); 
   margin-right: 8px;
-  cursor: pointer;
 }
 
 .button--buy{
-  background-color: rgb(255, 164, 28);
-  border: none;
-  width: 96px;
-  height: 28px;
-  border-radius: 14px;
-  cursor: pointer;
+  background-color: rgb(255, 164, 28); 
 }
