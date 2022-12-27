@@ -4,10 +4,16 @@
   height: 28px;
   border-radius: 14px;
   cursor: pointer;
+  transition: background-color 0.15s,
+  opacity 0.15s;
 }
 
 .link{
   color: rgb(0, 113, 133);
+ }
+
+ .link:hover{
+  color: brown;
  }
 
 .price{
@@ -20,6 +26,22 @@
   margin-right: 8px;
 }
 
+.button--add:hover{
+  background-color: rgb(221, 186, 10);
+}
+
+.button--add:active{
+  opacity: 0.8;
+}
+
 .button--buy{
   background-color: rgb(255, 164, 28); 
+}
+
+.button--buy:hover {
+  background-color: rgb(255, 153, 0);
+}
+
+.button--buy:active{
+  opacity: 0.8;
 }
