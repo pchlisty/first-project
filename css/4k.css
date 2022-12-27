@@ -9,8 +9,7 @@
   padding-right: 15px;
   margin-left: 10px;
   margin-right: 10px;
-  transition: padding 0.15s,
-  margin 0.15s ;
+  transition: padding 0.15s, margin 0.15s;
 }
 
 .button--stretch:hover {
