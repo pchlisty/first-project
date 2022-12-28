@@ -4,8 +4,7 @@
   height: 28px;
   border-radius: 14px;
   cursor: pointer;
-  transition: background-color 0.15s,
-  opacity 0.15s;
+  transition: background-color 0.15s, opacity 0.15s;
 }
 
 .link{
