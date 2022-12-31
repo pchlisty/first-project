@@ -53,4 +53,15 @@ color: gray;
 .arial-5d{
   font-size: 28px;
   font-weight: bold;
+  margin-bottom: 0;
+}
+
+.arial-5dd{
+  margin-left: 80px;
+  margin-top: 12px;
+}
+
+.arial-5ddd{
+  margin-left: 150px;
+  color: blue;
 }

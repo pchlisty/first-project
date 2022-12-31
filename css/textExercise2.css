@@ -1,0 +1,83 @@
+p{
+  font-style:Arial;
+}
+
+.center{
+  text-align: center;
+}
+
+.button{
+  margin-left: 920px;
+  background-color: rgba(0, 0, 255, 0.8);
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  font-style: Arial;
+}
+
+.new{
+  color: orange;
+  margin-bottom: 0;
+}
+
+.mac{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.Supercharged{
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 6px; 
+  margin-bottom: 0;
+}
+
+.color-grey--margintop8{
+  margin-top: 8px;
+}
+
+.fontsize-30{
+  font-size: 30px;
+}
+
+.color-grey{
+  color: grey;
+}
+
+.color-grey--marginleft8 {
+  margin-left: 8px;
+}
+
+.color-green{
+  color: green;
+}
+
+.color-red{
+  color: red;
+}
+
+.margin-top50{
+  margin-top: 50px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.margin-bottom0{
+  margin-bottom: 0; 
+}
+
+.info{
+  margin-top: 8px;
+  width: 450px;
+}
+
+.color-blue{
+  color: blue;
+}
