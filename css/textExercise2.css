@@ -81,3 +81,12 @@ p{
 .color-blue{
   color: blue;
 }
+
+.font{
+  font-family: montserrat;
+}
+
+.font--size30{
+  font-size: 30px;
+  font-weight: bold;
+}
