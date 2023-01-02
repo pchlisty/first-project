@@ -1,0 +1,28 @@
+.input{
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-color: rgb(200, 200, 200);
+  border-style: solid;
+  font-size: 16px;
+  margin-bottom: 8px;
+  border-width: 1px;
+}
+
+.name{
+width: 148px;
+}
+
+.email{
+  display: block;
+  width: 336px;
+}
+
+.button{
+  background-color: rgb(47, 127, 231);  
+  border: none;
+  width: 370px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
