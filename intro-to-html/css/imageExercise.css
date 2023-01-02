@@ -1,0 +1,67 @@
+.puppy{
+  width: 200px;
+  border-radius: 10px;
+}
+
+.puppy1{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.puppy2{
+  border-radius: 100px;
+}
+
+.search{
+  font-size: 16px;
+  margin-left: 20px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-right: 50px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-width: 1px;
+}
+
+.google{
+font-size: 16px;
+width: 500px;
+padding: 12px 15px;
+border-radius: 30px;
+border: none;
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25) ;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.email{
+margin-bottom: 0;
+color: gray;
+}
+
+.linkedin{
+  margin-top: 5px;
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.color--grey{
+  color: grey;
+}
+
+.button-agree{
+  font-size: 20px;
+  padding: 16px;
+  width: 400px;
+  border-radius: 30px;
+  border-style: none;
+  color: white;
+  background-color: rgb(10, 102, 194);
+  cursor: pointer;
+}
+
