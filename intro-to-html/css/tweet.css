@@ -1,3 +1,8 @@
+p {
+  font-family: Arial;
+  margin: 0;
+}
+
 .puppy{
   width: 50px;
   height: 50px;
@@ -23,4 +28,51 @@
   font-weight: bold;
   font-size: 16px;
   vertical-align: middle;
+}
+
+.box{
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+  width: 450px;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  }
+
+.profile{
+  width:200px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.puppy1{
+  width:200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.name{
+  font-weight: bold;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+.mutual-friend{
+  margin-bottom: 8px;
+  margin-left: 8px;
+  font-size: 14px;
+  color: gray;
+}
+
+.button-add{
+  background-color: rgb(24, 119, 242);
+  border: none;
+  margin-left: 8px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  
+margin-bottom: 6px;
 }
