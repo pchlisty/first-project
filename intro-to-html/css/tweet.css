@@ -46,11 +46,29 @@ p {
   margin-bottom: 15px;
 }
 
+.channel-picture {
+  width: 30px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
 .puppy1 {
   width: 200px;
   height: 200px;
   object-fit: cover;
   margin-bottom: 12px;
+}
+
+.text {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
 }
 
 .name {
@@ -64,6 +82,7 @@ p {
   margin-bottom: 8px;
   margin-left: 8px;
   font-size: 14px;
+  width: 150px;
   color: gray;
 }
 
