@@ -41,7 +41,6 @@ p {
 .profile {
   width: 200px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  display: inline-block;
   margin-left: 6px;
   margin-bottom: 15px;
 }
@@ -123,4 +122,10 @@ p {
   color: white;
   border-radius: 6px;
   vertical-align: top;
+}
+
+.flex-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
 }

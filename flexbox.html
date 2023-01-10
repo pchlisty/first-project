@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flexbox practice</title>
+    <link rel="stylesheet" href="./intro-to-html/css/flexbox.css" />
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: flex; flex-direction: row">
+      <div style="background-color: lightblue">div 1 text</div>
+      <div style="background-color: lightpink">
+        div 2
+        <p>text</p>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; flex: 1">flex: 1</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px">
+      <div style="background-color: lightblue; flex: 1">flex: 1</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; flex: 2">flex: 2</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        height: 70px;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        height: 70px;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        height: 70px;
+        flex-direction: row;
+        margin-top: 30px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: lightblue; width: 100px">100px</div>
+      <div style="background-color: lightpink; width: 100px">100px</div>
+      <div style="background-color: lightblue; width: 100px">100px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 50px">
+      <div style="background-color: lightblue; width: 200px">200px</div>
+      <div style="background-color: lightpink; width: 75px">75px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 50px">
+      <div style="background-color: lightblue; width: 50px">item1</div>
+      <div style="background-color: lightpink; flex: 1">item2</div>
+      <div style="background-color: lightblue; width: 75px">item3</div>
+    </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+      <div style="background-color: lightpink">item3</div>
+      <div style="background-color: lightpink">item4</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        border-width: 1px;
+        margin-top: 50px;
+        border-color: grey;
+        border-style: solid;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div style="background-color: lightpink">item1</div>
+      <div style="background-color: lightpink">item2</div>
+    </div>
+
+    <div
+      style="
+        border-width: 1px;
+        border-color: grey;
+        border-style: solid;
+        margin-top: 50px;
+        border-radius: 6px;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 12px;
+        "
+      >
+        <div
+          style="
+            margin-left: 8px;
+            margin-top: 6px;
+            font-size: 18px;
+            font-family: Arial;
+          "
+        >
+          Home
+        </div>
+        <div
+          style="
+            margin-right: 8px;
+            margin-top: 6px;
+            font-size: 18px;
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding: 3px 10px;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+          "
+        >
+          14
+        </div>
+        <div
+          style="
+            margin-left: 8px;
+            margin-top: 6px;
+            font-size: 18px;
+            font-family: Arial;
+          "
+        >
+          Notifications
+        </div>
+        <div
+          style="
+            margin-right: 8px;
+            margin-top: 6px;
+            font-size: 18px;
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding: 3px 10px;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+          "
+        >
+          3
+        </div>
+        <div
+          style="
+            margin-left: 8px;
+            margin-top: 6px;
+            font-size: 18px;
+            font-family: Arial;
+          "
+        >
+          Messeges
+        </div>
+        <div
+          style="
+            margin-right: 8px;
+            margin-top: 6px;
+            font-size: 18px;
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding: 3px 10px;
+            border: none;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+          "
+        >
+          5
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="home">Home</div>
+      <input class="search-bar" type="text" placeholder="Search" />
+      <button class="button">Download</button>
+    </div>
+  </body>
+</html>

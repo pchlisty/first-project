@@ -1,0 +1,35 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(120, 82, 178);
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: Arial;
+  align-items: center;
+  color: white;
+}
+
+.search-bar {
+  border-radius: 12px;
+  height: 24px;
+  width: 500px;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.button {
+  background-color: rgb(120, 82, 178);
+  border-width: 1px;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.home {
+  font-weight: bold;
+}
